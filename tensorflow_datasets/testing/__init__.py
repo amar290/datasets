@@ -16,6 +16,7 @@
 """Testing utilities."""
 
 from tensorflow_datasets.testing.dataset_builder_testing import DatasetBuilderTestCase
+# from tensorflow_datasets.testing.dataset_collection_builder_testing import TestDatasetCollectionBuilder
 from tensorflow_datasets.testing.feature_test_case import FeatureExpectationItem
 from tensorflow_datasets.testing.feature_test_case import FeatureExpectationsTestCase
 from tensorflow_datasets.testing.feature_test_case import RaggedConstant
@@ -44,6 +45,7 @@ __all__ = [
     "assert_features_equal",
     "DummyDataset",
     "DatasetBuilderTestCase",
+    # "TestDatasetCollectionBuilder",
     "DummyDatasetSharedGenerator",
     "DummyMnist",
     "DummyDatasetCollection",
